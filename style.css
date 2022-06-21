@@ -166,6 +166,10 @@ a:hover {
     color: hsl(var(--colour-dark));
 }
 
+*:focus {
+    outline: 2px solid blue; 
+    box-shadow: 0px 0px 8px 5px blue;
+}
 /* start -- primary navigation menu */
 
 .primary-header {
@@ -218,6 +222,7 @@ a:hover {
         background: transparent;
         background-image: url("./images/icon-menu.svg");
         background-repeat: no-repeat;
+        background-position: center;
         width: 2rem;
         aspect-ratio: 1;
     }
@@ -320,7 +325,7 @@ a:hover {
     justify-content: center;
     --flow-space: 0.2rem;
 }
-.menu-btn {
+.nav-btn {
     border: 2px solid hsl(var(--colour-medium) / .8);
     background-color: hsl(var(--colour-light));
     color: hsl(var(--colour-medium));
@@ -328,10 +333,12 @@ a:hover {
     padding: 0.7rem 4rem;
     text-align: center;
 }
-.menu-btn:hover {
-    border: 2px solid hsl(var(--colour-dark));  
+button:hover {
     color: hsl(var(--colour-dark));  
     cursor: pointer;
+}
+button .nav-btn:hover {
+    border: 2px solid hsl(var(--colour-dark));  
 }
 
 @media (min-width: 500px) {
@@ -341,7 +348,7 @@ a:hover {
         justify-self: end;
     }
 
-    .menu-btn {
+    .nav-btn {
         padding: 0.8rem 1.6rem;
     }
 }
