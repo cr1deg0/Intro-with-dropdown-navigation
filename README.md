@@ -12,7 +12,7 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-- [Author](#author)
+
 - [Acknowledgments](#acknowledgments)
 
 ## Overview
@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL:](https://www.frontendmentor.io/solutions/accessible-intro-section-with-dropdown-navigation-S3Gv-JeMei)
+- [Live Site URL:](https://cr1deg0.github.io/Intro-with-dropdown-navigation/)
 
 ## My process
 
@@ -45,6 +45,7 @@ In this project I have learned to create an accessible menu layout both for mobi
 
 ### Continued development
 
+For a future project with a similar navigation bar, I will define all the navigation items within the same ul element and style the layout with grid, rather than the current solution with flex and two lists. I believe this will be a much cleaner solution in terms of accessibility.
 In a future project I would try implementing a full keyboard navigation, with support for arrow, home and end keys.
 I'd also would like to continue practicing responsive images.
 

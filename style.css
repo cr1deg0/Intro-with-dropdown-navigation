@@ -337,7 +337,7 @@ button:hover {
     color: hsl(var(--colour-dark));  
     cursor: pointer;
 }
-button .nav-btn:hover {
+.nav-btn:hover {
     border: 2px solid hsl(var(--colour-dark));  
 }
 
@@ -417,7 +417,8 @@ li a {
     .img-hero {
         margin-top: clamp(1.5rem 10vw 6rem);
         background-image: url(./images/image-hero-desktop.png);
-        height: 75vh;   
+        height: auto;   
+        width: 100%;
     }
     .content {
         padding-top: 5rem;
