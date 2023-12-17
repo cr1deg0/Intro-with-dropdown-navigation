@@ -2,6 +2,8 @@
 
 This is a solution to the [Intro section with dropdown navigation challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
+<img width="1372" alt="intro section" src="https://github.com/cr1deg0/Intro-with-dropdown-navigation/assets/86016298/2923627f-48e1-4226-92be-3801c885262d">
+
 ## Table of contents
 
 - [Overview](#overview)
